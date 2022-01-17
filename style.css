@@ -1,0 +1,133 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+a
+{
+    text-decoration:none;
+}
+/* Main Body */
+.main-header
+{
+width:100%;
+height:100vh;
+background-color:gray;
+display:flex;
+justify-content:center;
+}
+/* Form Section */
+.form-part
+{
+    background-color:#ffffff;
+    display: inline-grid;
+    margin:auto;
+    align-items:center;
+    padding:10px;
+    border-radius:8px;
+}
+/* Logo Section */
+.card
+{
+    margin:auto;
+    text-align:center;
+    color:#fff;
+    font-size:12px;
+    line-height:70px;
+    margin-bottom:10px;
+    height:75px;
+    width:75px;
+    border-radius:50%;
+    background-color:#010033;
+}
+
+
+/* Input Section */
+.input-box{
+    margin-bottom:5px;
+    padding:8px;
+    font-family:"Poppins",sans-serif;
+    font-size:14px;
+    height:40px;
+    border:1px solid #010033;
+    border-radius: 4px;
+    outline:none;
+}
+
+.forget
+{
+    color:#0E69DC !important;
+    text-decoration:none;
+    font-size:13px;
+    margin:0px 0px 5px 5px;
+}
+
+.btn-class
+{
+    background-color: #010033;
+    padding:8px;
+    border:none;
+    font-size:14px;
+    font-weight:400;
+    color:#fff;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.create
+    {
+        font-size:14px;
+        margin:15px auto;
+    }
+    .sign-up a
+    {
+        font-weight:600;
+        color:#0E69DC !important;
+    }
+
+    .middle{
+        width: 100%;  
+        text-align: center; 
+        border-bottom: 1px solid #000; 
+        line-height: 0.1em;
+        margin: 5px 0 20px; 
+     } 
+     .middle span { 
+        font-size:16px;
+         background:#fff; 
+         padding:0 10px; 
+     }
+
+.bottom
+{
+    font-size:14px !important;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form-part
+{
+    background-color:#ffffff;
+    display: inline-grid;
+    width:325px;
+    align-items:center;
+    padding:10px;
+    border-radius:8px;
+}
+    
+  }
+  @media only screen and (min-width: 600px) {
+    .form-part
+{
+    background-color:#ffffff;
+    display: inline-grid;
+    width:375px;
+    align-items:center;
+    padding:10px;
+    border-radius:8px;
+}
+    
+  }
